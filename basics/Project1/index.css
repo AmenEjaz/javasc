@@ -1,0 +1,65 @@
+
+body{
+   
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+
+
+}
+div{
+    align-items: center;
+     margin-left: auto;
+    margin-right: auto;
+}
+.buttons{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+#grey{
+ 
+    background-color: grey;
+    border: 50px solid grey;
+    margin-left: 30px;
+  
+}
+#yellow{
+    background-color: yellow;
+    border: 50px solid yellow;
+    margin-left: 30px;
+    
+
+}
+#white{
+    background-color: white;
+    border: 50px solid white;
+    margin-left: 30px;
+    
+   
+}
+#blue{
+    background-color: blue;
+    border: 50px solid blue;
+    margin-left: 30px;
+
+
+   
+}
+#purple{
+    background-color: purple;
+    border: 50px solid purple;
+    margin-left: 30px;
+    
+}
+h2{
+    padding : 0px
+}
