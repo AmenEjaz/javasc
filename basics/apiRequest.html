@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+</style>
+<body>
+        <img src="C:\Users\PMLS\Desktop\js\Projects\api\AMEN EJAZ.PNG" alt=""> 
+
+    <button id="button">Show Details</button>
+    <textarea name="" id="text"></textarea></body>
+<script>
+    //object creation
+    function getDetails(){
+    const xhr = new XMLHttpRequest();
+    const string= 'https://api.github.com/users/amenejaz'
+    xhr.open('GET',string)
+    //For tracking each state:
+    xhr.onreadystatechange=function(){
+    console.log(xhr.readyState);
+//Detecting state
+    //if(xhr.readyState===4){
+        const data=JSON.parse(this.responseText);
+        console.log(typeof data)
+        console.log(data.name)
+    document.querySelector('#text').innerHTML=data.name
+
+}
+   // }
+    // console.log(xhr.readyState)
+    xhr.send()
+}
+    button.addEventListener('click',getDetails)
+
+</script>
+</html>
