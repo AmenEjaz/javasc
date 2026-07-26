@@ -1,0 +1,23 @@
+ h2{
+        color: black;
+    }
+    form{
+        border: 2px solid black;
+        margin: 40px;
+        padding: 20px;
+    }
+    body{
+        margin: 20px;
+        font-weight: bold;
+    }
+    h1{
+        text-align: center;
+    }
+    #results{
+        text-align: center;
+    }
+    #results{
+        color: rgb(45, 45, 112);
+        font-size: larger;
+        
+    }
