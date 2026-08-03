@@ -1,0 +1,17 @@
+    body{
+        margin: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #clock{
+        display: flex;
+        align-items: center;
+        margin: 20px;
+
+        height: 50px;
+        width: 140px;
+        border-radius: 20px;
+        background-color: rgb(246, 181, 102);
+        font-weight: bold;
+    }
