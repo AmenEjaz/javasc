@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body>
+
+    
+</body>
+<script>
+    function outer()
+{
+    let name='Amen Ejaz'
+    function displayName(){
+            let secrret=123//cant be access by inner2
+
+        console.log(`My name is ${name}`); 
+    }
+    // displayName()
+
+    function inner2() {
+        console.log('inner2',name);
+                //console.log(secrret);
+
+
+    }
+   inner2()
+                console.log(secrret);
+
+}
+ console.log(name);
+outer()
+
+</script>
+</html>
